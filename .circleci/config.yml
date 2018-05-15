@@ -214,7 +214,7 @@ jobs:
     environment:
       TARGET_ARCH: x64
     macos:
-      xcode: "9.0"
+      xcode: "8.3.3"
     steps:
       - checkout
       - run:
@@ -305,7 +305,7 @@ jobs:
       TARGET_ARCH: x64
       MAS_BUILD: 1
     macos:
-      xcode: "9.0"
+      xcode: "8.3.3"
     steps:
       - checkout
       - run:
